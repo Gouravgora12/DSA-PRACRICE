@@ -1,4 +1,4 @@
-/******Problem 5 || Approach 2(Hash Map) || Time Complexity O(n*m) || space complexity O(n+m)********/
+/******Problem 5 || Approach 3(Marker) || Time Complexity O(n*m) || space complexity O(1)********/
 function setZero(matrix, m, n) {
     let firstRow = false
     let firstCol = false
