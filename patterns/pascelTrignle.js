@@ -9,4 +9,6 @@ function pascalTriangle(numRows) {
     }
     return final;
 }
+//output
+
 console.log(pascalTriangle(5)) 

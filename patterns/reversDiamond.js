@@ -1,3 +1,4 @@
+// reverse Diamond pattern
 function createPattern(n) {
     for (let i = n; i > 0; i--) {
         let pattern = ''

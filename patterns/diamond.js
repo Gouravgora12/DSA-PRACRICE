@@ -11,3 +11,4 @@ function createPattern(n){
     }
 }
 createPattern(5)
+//diamond pattern

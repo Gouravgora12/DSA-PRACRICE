@@ -1,3 +1,4 @@
+//Reverse Pyramid pattern
 function createPattern(n){
     for(let i=n;i>0;i--){
         let start=''
