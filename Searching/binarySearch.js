@@ -1,8 +1,4 @@
-function swap(nums , i ,j){
-    let temp=nums[i]
-    nums[i]= nums[j]
-    nums[j]= temp
-}
+let arr=[1,2,3,4,5]
 function search( arr, x) {
     let low =0
     let heigh= arr.length-1
@@ -20,7 +16,4 @@ function search( arr, x) {
     }
     return -1; 
 }
-module.exports= {
-    swap:swap,
-    search:search
-}
+console.log( "Result found at index",search(arr,4));

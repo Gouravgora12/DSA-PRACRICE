@@ -1,4 +1,8 @@
-let swap= require('../utility.js')
+function swap(nums , i ,j){
+    let temp=nums[i]
+    nums[i]= nums[j]
+    nums[j]= temp
+}
 function partition(arr, l , h) {
     let pivot =arr[l]
     let low= l

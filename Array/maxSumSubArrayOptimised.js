@@ -19,3 +19,22 @@ maxSum=5
 sum=1+5
 maxSum=5
 maxSum=6
+
+
+/*
+input 60
+output 1:00
+input 140
+output 2:20
+*/
+cdore 
+coder
+for(let i=0;i<cdore.length;i++){
+  if( coder.includes(cdore.charAt(i)) ){
+    continue
+  }
+  else{
+    return false
+  }
+  
+}

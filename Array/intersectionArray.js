@@ -6,10 +6,7 @@ function union(arr1, arr2) {
     while(i<n1&& j<n2){
         if(i>0 && arr1[i]==arr1[i-1]) {i++; continue;}
         if(j>0 && arr1[j]==arr1[j-1]) {j++; continue;}
-        if(arr1[i]<arr2[j]){
-           
-          
-            
+        if(arr1[i]<arr2[j]){ 
             i++;
         }
         else if(arr1[i]>arr2[j]){

@@ -52,8 +52,5 @@ function main(arr1, arr2, n, m) {
     
 
     }
-
-
-
 main(arr1, arr2, m, n)
 console.log(arr1, arr2);
