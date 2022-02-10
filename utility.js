@@ -23,4 +23,3 @@ function search( arr, x) {
 module.exports= {
     swap:swap,
     search:search
-}

@@ -12,6 +12,7 @@ function leaders(arr){
         }
         leaders.push(max);
     }
+    console.log(leaders);
     return leaders
 }
 let arr=[7,10,4,3,6,5,2]

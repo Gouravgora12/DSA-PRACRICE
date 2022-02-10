@@ -1,4 +1,5 @@
-let nums = [1,0,0];
+let nums = [30,3,34,5,9];
+console.log(nums.sort().reverse());
 let result = "";
 let flag=0;
 function printLargest(){
@@ -10,10 +11,9 @@ nums.sort((a, b)=> {
     }
     if(c>d){
         return -1;
-    }
-    return 0;
-   
+    } 
   })
+  console.log(nums);
 for (let i = 0; i < nums.length; i++) {
     result += nums[i]
     if(nums[i]!=0){
